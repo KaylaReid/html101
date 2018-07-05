@@ -78,11 +78,13 @@ aside {
 
 footer {
     background-color: dimgrey;
-    margin: .3em;
+    /* margin: .3em; */
     text-align: center;
     color: lime;
     width: 100%;
     box-sizing: border-box;
+    padding: 0;
+    
 }
 
 footer a {
