@@ -1,0 +1,94 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lime;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+nav {
+    background-color: dimgrey;
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .3em;
+    /* font-family: 'Arial', 'Helvetica', 'sans-serif'; */
+    color: lime;
+}
+
+nav a {
+    margin: .3em 1em;
+    color: goldenrod;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.wrapper {
+    background-color: white;
+}
+
+h1, h2, h3 {
+    padding-left: .4em;
+    padding-bottom: .3em;
+    padding-top: .3em;
+    background-color: navy;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.img-psych {
+    width: 100%; 
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: dimgrey;
+    margin: .3em;
+    text-align: center;
+    color: lime;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer a {
+    color: goldenrod;
+}
+
+footer a:hover {
+    color: white;
+}
