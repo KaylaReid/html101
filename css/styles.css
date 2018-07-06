@@ -65,6 +65,14 @@ h1 {
     width: 100%;
     /* background-color: blueviolet; */
 }
+.flex-item {
+    background-color: navy;
+    color: white;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
 
 main {
     flex: 2;
