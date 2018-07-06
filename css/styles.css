@@ -1,6 +1,6 @@
 *, *:before, *:after {
     box-sizing: inherit;
-    /* margin: 0; */
+    margin: 0;
 }
 
 html {
@@ -61,6 +61,8 @@ h1 {
     height: auto;
     overflow: hidden;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.76));
+    display: block;
+
 }
 
 .flex-container {
@@ -89,6 +91,7 @@ h1 {
 }
 .main-img {
     margin: 0;
+    display: block;
 
 }
 main {
