@@ -121,7 +121,7 @@ h2 {
     display: block;
 
 }
-
+/* start pineapple page */
 .pineapple-gif {
     display: flex;
     width: 100%;
@@ -137,6 +137,47 @@ h2 {
     margin-bottom: 1em;
 
 }
+/* end pineapple page */
+
+/* start blueberry page */
+.blueBerry-page-main-img {
+    display: flex;
+    justify-content: center;
+
+    
+}
+.bb {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin: 2em;
+
+}
+.main-bb {
+    background: radial-gradient(dimgrey, black);
+
+}
+.blueberry-img1 {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+
+}
+.blueberry-img2 {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+
+}
+.blueberry-gif {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* end blueberry page */
 main {
     flex: 2;
     margin: 1em;
