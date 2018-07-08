@@ -132,7 +132,7 @@ h2 {
 }
 .img1, .img2 {
     box-shadow: black 5px 5px 5px;
-    border: #2cbc1e .5em solid;
+    border: #2cbc1e .2em solid;
     margin-top: 1em;
     margin-bottom: 1em;
 
@@ -144,7 +144,6 @@ h2 {
     display: flex;
     justify-content: center;
 
-    
 }
 .bb {
     border: .2em navy solid;
@@ -172,12 +171,44 @@ h2 {
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
-
 /* end blueberry page */
+/* start of theme song page */
+.main-theme {
+background: radial-gradient(dimgrey, black);
+}
+.theme-page-main-img {
+    display: flex;
+    justify-content: center;
+
+}
+.theme {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.theme-gif {
+    display: flex;
+    justify-content: space-around;
+}
+.theme-img1 {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+}
+.theme-img2 {
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin-bottom: 2em;
+}
+.audio {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+/* end of theme song page */
+
+
 main {
     flex: 2;
     margin: 1em;
