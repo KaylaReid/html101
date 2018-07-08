@@ -24,6 +24,12 @@ body {
     text-align: center;
     font-size: 4em;
     padding-top: 1em;
+    text-shadow:
+        -1px -1px 0 #2cbc1e,
+        1px -1px 0 #2cbc1e,
+        -1px 1px 0 #2cbc1e,
+        1px 1px 0 #2cbc1e;
+    
 }
 .pineapple-svg {
     width: 10%;
@@ -79,9 +85,24 @@ h1, h2, h3 {
     background: navy;
     color: white;
     margin-bottom: .7em;
+    
+}
+.main-content-headings {
+    box-shadow: black 5px 5px 5px;
 }
 h2 {
     margin-bottom: .5em;
+}
+.fist-bmp {
+    margin-top: .7em;
+    box-shadow: black 5px 5px 5px;
+}
+.bmp-gif {
+    display: flex;
+    justify-content: center;
+    border: .2em navy solid;
+    box-shadow: black 5px 5px 5px;
+    margin: 2em auto;
 }
 .img-psych {
     width: 100%; 
@@ -107,13 +128,18 @@ h2 {
     color: white;
     width: 30%;
     margin: 1em;
+    padding: 1em;
     text-align: center;
+    text-shadow: black 2px 2px;
+
+    
 }
 .cast-img {
     width: 100%;
-    padding: 1em;
+    padding: .2em;
     box-shadow: black 5px 5px 5px;
     background-color: #2cbc1e;
+ 
     
 }
 .main-img {
